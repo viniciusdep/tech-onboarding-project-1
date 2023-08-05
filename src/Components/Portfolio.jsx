@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio-pic.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "computer minimalist model";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "CI/CD with Gitlab 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Create a beginner friendly template for ci/cd pipelines using GitLab.",
+    url: "https://github.com/viniciusdep/simple-gitlab-pipeline",
   },
   {
-    title: "Web Development for Beginners",
+    title: "CRUD with Python and Flask",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+     "Flask API to perform crud operations.",
+    url: "https://github.com/viniciusdep/flask_apis",
   },
   {
-    title: "My Resume Site",
+    title: "IaC with Terraform for AWS",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Full infrastructure automation with Terraform for AWS.",
+    url: "https://github.com/viniciusdep/terraform-aws",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Observability Stack with Prometheus and Grafana",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Complete stack to deploy Prometheus and Grafana using Kubernetes.",
+    url: "https://github.com/viniciusdep/monitoring-observability",
   },
 ];
 
