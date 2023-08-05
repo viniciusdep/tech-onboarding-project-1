@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems, configure applications and infrastructure, monitor performance and availability";
+  "I am passionate about solving problems, configuring applications and infrastructure, monitoring performance and availability";
 
 const About = () => {
   return (
